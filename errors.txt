@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        a "Ahhh fresh air. I love the park thi
+File "game/script.rpy", line 35: expected statement.
+    a
+     ^
 
 Ren'Py Version: Ren'Py 7.4.2.1292
-Sun Nov 21 19:45:09 2021
+Sun Nov 21 21:01:00 2021

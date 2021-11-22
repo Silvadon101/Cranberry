@@ -32,6 +32,10 @@ label start:
     scene bg park
     "There's a gentle breeze that blows the sweet scent of various aromas"
     a "Ahhh fresh air. I love the park this time of the day!"
-    pause    
-
+    a "Oh Hey! I didn't get your name. What do they call you?"
+    pause
+    $ p = renpy.input("Oh, um I am. . .")
+    if p == "":
+        "Please enter a name."
+    p "My name is [p], nice to meet you"    
     return
