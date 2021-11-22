@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script
+    define a = Character("Angel", color)
+  File "game/script.rpy", line 11, in script
+    define a = Character("Angel", color)
+  File "game/script.rpy", line 11, in <module>
+    define a = Character("Angel", color)
+TypeError: type() takes 1 or 3 arguments
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/main.py", line 515, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 11, in script
+    define a = Character("Angel", color)
+  File "game/script.rpy", line 11, in script
+    define a = Character("Angel", color)
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/ast.py", line 2164, in execute
+    self.set()
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/ast.py", line 2175, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/python.py", line 2242, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 11, in <module>
+    define a = Character("Angel", color)
+  File "C:\Users\Amber0527\Documents\P. Programs\renpy-7.4.2-sdk/renpy/character.py", line 1489, in Character
+    return type(kind)(name, kind=kind, **properties)
+TypeError: type() takes 1 or 3 arguments
+
+Windows-10-10.0.19041
+Ren'Py 7.4.2.1292
+Cranberry 1.0
+Sun Nov 21 19:52:21 2021
