@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 52: expected ':' not found.
-    label yes
-             ^
-
-File "game/script.rpy", line 55: expected ':' not found.
-    label no
-            ^
+File "game/script.rpy", line 63: reached end of line when expecting ':'.
+    if answer == "2"
+                    ^
 
 Ren'Py Version: Ren'Py 7.4.2.1292
-Sun Nov 21 21:39:22 2021
+Sun Nov 21 21:53:07 2021
